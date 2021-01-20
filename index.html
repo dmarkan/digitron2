@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script src="main.js"></script>
+  <title>Digitron</title>
+</head>
+
+<body>
+  <form>
+    Prvi broj:<input type="text" id="value1">
+    Drugi broj:<input type="text" id="value2">
+    Operacije:
+    <select id="operator">
+      <option value="add">Sabiranje</option>
+      <option value="min">Oduzimanje</option>
+      <option value="div">Deljenje</option>
+      <option value="mul">Množenje</option>
+    </select>
+    <button type="button" onclick="calc()">Izračunaj</button>
+  </form>
+  <div id="result"></div>
+</body>
+
+</html>
